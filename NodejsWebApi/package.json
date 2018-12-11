@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-web-app1",
+  "version": "0.0.0",
+  "description": "NodejsWebApp1",
+  "main": "server.js",
+  "author": "",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jasmine": "^3.3.1",
+    "nodemon": "^1.18.7",
+    "redis": "^2.8.0",
+    "request": "^2.88.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "jasmine"
+  },
+  "keywords": [],
+  "license": "ISC"
+}

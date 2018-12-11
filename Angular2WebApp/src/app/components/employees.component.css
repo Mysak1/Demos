@@ -1,0 +1,44 @@
+#employees {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #employees tr {background-color: #f2f2f2;}
+
+  #employees tr:hover {background-color: #ddd;}
+  
+  #employees th {
+    padding: 10px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  #employees td {
+    padding: 2px 8px;
+ }
+
+ #employees input, select {
+    width: 100%;
+    padding: 6px 6px;
+    margin: 6px 6px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  #employees  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #employees input.ng-invalid {border: 1px solid red;}
+
+  #employees .errorMessage {color:red;}
